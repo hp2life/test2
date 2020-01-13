@@ -3,10 +3,16 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { FilePipe } from './file.pipe';
+import { MyErrorDirective } from './my-error.directive';
+
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    FilePipe,
+    MyErrorDirective,
+    
   ],
   imports: [
     BrowserModule,
